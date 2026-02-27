@@ -16,11 +16,11 @@ const Navbar = () => {
 
       
       <ul className="hidden sm:flex gap-6 text-orange-400">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Rooms</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="about">About Us</a></li>
+        <li><a href="room">Rooms</a></li>
+        <li><a href="gallery">Gallery</a></li>
+        <li><a href="contact">Contact</a></li>
       </ul>
 
       
@@ -35,11 +35,11 @@ const Navbar = () => {
       
       {isOpen && (
         <ul className="sm:hidden flex flex-col justify-center items-center gap-4 mt-4 text-gray-700 w-full text-center bg-white">
-          <li className="w-full"><a href="#" onClick={toggleMenu}>Home</a></li>
-          <li className="w-full"><a href="#" onClick={toggleMenu}>About Us</a></li>
-          <li className="w-full"><a href="#" onClick={toggleMenu}>Rooms</a></li>
-          <li className="w-full"><a href="#" onClick={toggleMenu}>Gallery</a></li>
-          <li className="w-full"><a href="#" onClick={toggleMenu}>Contact</a></li>
+          <li className="w-full"><a href="/" onClick={toggleMenu}>Home</a></li>
+          <li className="w-full"><a href="about" onClick={toggleMenu}>About Us</a></li>
+          <li className="w-full"><a href="rooms" onClick={toggleMenu}>Rooms</a></li>
+          <li className="w-full"><a href="gallery" onClick={toggleMenu}>Gallery</a></li>
+          <li className="w-full"><a href="contact" onClick={toggleMenu}>Contact</a></li>
         </ul>
       )}
     </nav>
