@@ -24,6 +24,7 @@ export default function Home() {
 <Map/>
 <Footer/>
 
+
    <a
         href="https://wa.me/254753879163?text=Hello%20can%20I%20help%20you"
         target="_blank"

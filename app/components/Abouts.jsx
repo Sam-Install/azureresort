@@ -36,7 +36,7 @@ const Abouts = () => {
             Enjoy breathtaking ocean views, elegant rooms, and personalized service.
           </p>
 
-          <button className="mt-4 bg-blue-300 hover:bg-blue-600 text-white px-6 py-3 rounded-md font-medium transition">
+          <button className="mt-4 bg-blue-300 hover:bg-blue-600  text-white px-6 py-3 rounded-md font-medium transition">
             Learn More
           </button>
         </div>
