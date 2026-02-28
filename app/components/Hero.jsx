@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import React, { useState, useEffect } from "react";
 
 const slides = [
@@ -64,12 +65,12 @@ const Hero = () => {
 
             {slide.id === 1 && (
               <div className="flex gap-4">
-                <button className="bg-indigo-600 hover:bg-indigo-700 px-6 py-2 rounded text-lg font-medium">
+              <Link href="/about">  <button className="bg-green-400 hover:bg-green-700 px-6 py-2 rounded text-lg font-medium">
                   Learn More
-                </button>
-                <button className="border border-white hover:bg-white hover:text-black px-6 py-2 rounded text-lg font-medium">
+                </button> </Link> 
+              <Link href="/contact"> <button className="border border-white hover:bg-white hover:text-black px-6 py-2 rounded text-lg font-medium">
                   Book Now
-                </button>
+                </button> </Link>  
               </div>
             )}
           </div>

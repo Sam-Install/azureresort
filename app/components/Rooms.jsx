@@ -89,7 +89,7 @@ const RoomCard = ({ room, onBook }) => {
         <div className="flex flex-col sm:flex-row gap-3 pt-4">
           <button
             onClick={onBook}
-            className="w-full bg-black text-white py-3 rounded-lg hover:bg-gray-800 transition font-semibold"
+            className="w-full bg-blue-400 text-white py-3 rounded-lg hover:bg-gray-800 transition font-semibold"
           >
             Book Now
           </button>
@@ -132,7 +132,7 @@ const BookingModal = ({ room, onClose }) => {
       <div className="bg-white rounded-xl p-6 w-full max-w-lg relative">
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 text-2xl text-gray-600 hover:text-black"
+          className="absolute top-4 right-4 text-2xl text-gray-600 hover:text-blue-500"
         >
           <FaTimes />
         </button>

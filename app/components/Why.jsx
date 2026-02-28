@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import React from "react";
 import { FaSwimmer, FaConciergeBell, FaMapMarkerAlt } from "react-icons/fa";
 
@@ -49,9 +50,13 @@ const Why = () => {
 
       
       <div className="text-center mt-12">
-        <button className="bg-blue-400 hover:bg-blue-500 text-white px-6 py-3 rounded-lg font-medium transition">
+    <Link href="/room">  
+    
+    <button className="bg-blue-400 hover:bg-blue-500 text-white px-6 py-3 rounded-lg font-medium transition">
           Book Your Stay
         </button>
+    
+    </Link>    
       </div>
     </section>
   );
