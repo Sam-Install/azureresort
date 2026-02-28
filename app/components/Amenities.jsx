@@ -15,7 +15,6 @@ import {
 } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
-// Animation variants for the item list
 const listVariants = {
   hidden: { opacity: 0 },
   visible: {
